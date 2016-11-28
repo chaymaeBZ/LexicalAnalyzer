@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9FB700041DE650DA00D320BE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FB700031DE650DA00D320BE /* main.c */; };
+		9FB7000C1DE6513100D320BE /* lexem_yield.c in Sources */ = {isa = PBXBuildFile; fileRef = 9FB7000A1DE6513000D320BE /* lexem_yield.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9FB700001DE650DA00D320BE /* lex */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB700031DE650DA00D320BE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		9FB7000A1DE6513000D320BE /* lexem_yield.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lexem_yield.c; sourceTree = "<group>"; };
+		9FB7000B1DE6513100D320BE /* lexem_yield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lexem_yield.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,8 @@
 			isa = PBXGroup;
 			children = (
 				9FB700031DE650DA00D320BE /* main.c */,
+				9FB7000A1DE6513000D320BE /* lexem_yield.c */,
+				9FB7000B1DE6513100D320BE /* lexem_yield.h */,
 			);
 			path = lex;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FB700041DE650DA00D320BE /* main.c in Sources */,
+				9FB7000C1DE6513100D320BE /* lexem_yield.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
