@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include "lexem_yield.h"
 
+
 void checkIfFileIsEmpty(FILE * file){
     fseek(file, 0, SEEK_END);
     if (ftell(file) == 0){
@@ -205,9 +206,7 @@ void readLexem() {
         readChar();
     }
     else if (isdigit(currentChar)){
-        
         readLiteral();
-       
     }
     else if (isdelimiter(currentChar)){
         readDelimiter();

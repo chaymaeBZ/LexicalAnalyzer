@@ -1,2 +1,2 @@
-SELECT * FROM book WHERE book.price >= 21;
+21AZERTY
 

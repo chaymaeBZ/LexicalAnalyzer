@@ -38,12 +38,17 @@ int main(int argc, const char * argv[]) {
     // if the file is empty then exit
     checkIfFileIsEmpty(file);
     
+    // ajouter la liste des erreurs
+    
+    
     readChar();
     
     
     while (currentChar != EOF) {
         readLexem();
     }
+    
+    
     Lexem * lex = listLexem;
     printf("-------------------\n");
     while (lex != NULL) {
